@@ -31,7 +31,8 @@ ask "insert your text here in quotes"
 echo "insert text" | ask
 ```
 
-note: 
+### Note
+ 
 when using just
 ```
 ask
