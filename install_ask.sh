@@ -2,4 +2,5 @@
 
 echo 'export PATH=$PATH:$HOME/.ask' >> ~/.bashrc
 echo "alias ask='ask.sh'" >> ~/.bashrc
-source ~/.bashrc
+cd ~/.ask && npm install && cd
+exec "$SHELL"
