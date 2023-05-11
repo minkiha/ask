@@ -2,7 +2,7 @@
 
 Ask is a command line utility that uses OpenAI's api to generate text on the command line.
 
-![](https://github.com/minkiha/ask/askdemo.gif)
+![](./askdemo.gif)
 
 ## Install
 
