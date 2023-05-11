@@ -19,19 +19,24 @@ sh ~/.ask/install_ask.sh
 
 ## Usage
 
+### Basic
+
 ```
 ask "insert your text here in quotes"
 ```
+
+### Pipe
 
 ```
 echo "insert text" | ask
 ```
 
-note: when using just
+note: 
+when using just
 ```
 ask
 ```
-it will keep stdin open until ctrl-c but note that previous messages are not inserted into the next message so there is no memory of the conversation.
+it will keep stdin open until you ctrl-c but note that previous messages are not inserted into the next message so there is no memory of the conversation.
 
 ## Coming soon
 
